@@ -14,8 +14,7 @@ $mw->{config}->{api_url} = 'http://en.wikiquote.org/w/api.php';
 $_ = $mw->get_page( { title => 'Farscape' } )->{ '*' };
 
 # remove everything after, and including, the cast section
-m/== Cast ==/;
-$_ = substr $_, 0, $-[0];
+s/== Cast ==.*$//s;
 
 # create seperators from horizontal rules, {,sub}section boundaries, quotes
 s/^\s*<hr.+?\/>\s*$/%/gim;
@@ -36,8 +35,7 @@ s/%\n(%\n)+/%\n/g;
 s/^\s+//gm;
 
 # remove everything before, and including, the first '%'
-m/^%$/m;
-$_ = substr $_, $+[0]+1;
+s/.*?%\n//s;
 
 # remove leading colons
 s/^://gm;
