@@ -2,10 +2,10 @@
 
 pkgname=fortune-mod-farscape
 pkgver=1
-pkgrel=1
-pkgdesc="farscape fortune cookie file"
+pkgrel=2
+pkgdesc="Fortune cookies: Farscape (TV series), scraped from wikiquotes"
 arch=('any')
-#url=""
+url="http://en.wikiquote.org/wiki/Farscape"
 license=('CC-BY-SA')
 makedepends=('perl' 'perl-mediawiki-api' 'perl-libwww')
 depends=('fortune-mod')
