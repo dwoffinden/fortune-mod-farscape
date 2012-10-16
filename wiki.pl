@@ -26,7 +26,7 @@ s/^==.+?==$/%/gm;
 s/^\s*\*\s*$/%/gm;
 
 # remove empty lines
-s/\n\n/\n/g;
+s/\n{2,}/\n/g;
 
 # collapse any multiple occurances of '%'
 s/%\n(%\n)+/%\n/g;
