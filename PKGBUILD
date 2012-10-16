@@ -11,7 +11,7 @@ makedepends=('perl' 'perl-mediawiki-api' 'perl-libwww')
 depends=('fortune-mod')
 groups=('fortune-mods')
 source=('wiki.pl')
-md5sums=('a821aa8113b0d7dfea775084e4779ca7')
+md5sums=('7eeab1e4297df0397357b4a8b7d1f1a2')
 
 build() {
   cd ${srcdir}

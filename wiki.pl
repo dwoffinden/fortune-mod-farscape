@@ -35,7 +35,7 @@ s/%\n(%\n)+/%\n/g;
 # remove preceding whitespace
 s/^\s+//gm;
 
-# remove everything before the first '%'
+# remove everything before, and including, the first '%'
 m/^%$/m;
 $_ = substr $_, $+[0]+1;
 
