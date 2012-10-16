@@ -3,9 +3,9 @@
 use strict;
 use warnings;
 
-use utf8;
-
 use MediaWiki::API;
+
+binmode STDOUT, ":utf8";
 
 my $mw = MediaWiki::API->new();
 $mw->{config}->{api_url} = 'http://en.wikiquote.org/w/api.php';

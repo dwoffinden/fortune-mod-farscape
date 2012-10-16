@@ -1,8 +1,8 @@
 # Maintainer: Daniel Woffinden <d.woffinden@live.co.uk>
 
 pkgname=fortune-mod-farscape
-pkgver=1
-pkgrel=2
+pkgver=2
+pkgrel=1
 pkgdesc="Fortune cookies: Farscape (TV series), scraped from wikiquotes"
 arch=('any')
 url="http://en.wikiquote.org/wiki/Farscape"
