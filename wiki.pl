@@ -8,7 +8,7 @@ use utf8;
 use MediaWiki::API;
 
 my $mw = MediaWiki::API->new();
-$mw->{config}->{api_url} = 'https://en.wikiquote.org/w/api.php';
+$mw->{config}->{api_url} = 'http://en.wikiquote.org/w/api.php';
 
 # TODO fetch a specific, stable revision
 my $page = $mw->get_page( { title => 'Farscape' } )->{ '*' };
