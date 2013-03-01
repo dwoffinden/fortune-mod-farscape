@@ -1,8 +1,7 @@
-fortune-mod-farscape
-====================
+# fortune-mod-farscape
 
-A perl script to scrape Farscape quotes from wikiquote into a fortune-mod
-package for Arch Linux.
+A script to scrape Farscape quotes from wikiquote into a fortune-mod
+package, and a PKGBUILD for Arch Linux.
 
 https://en.wikiquote.org/wiki/Farscape
 

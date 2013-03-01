@@ -15,12 +15,12 @@ md5sums=('bede05dd7f69430fbd82425ca2b9eb07')
 
 build() {
   cd ${srcdir}
-
   perl wiki.pl > farscape
-
   strfile farscape farscape.dat
+}
 
+package() {
+  cd ${srcdir}
   install -D -m644 farscape ${pkgdir}/usr/share/fortune/farscape
   install -D -m644 farscape.dat ${pkgdir}/usr/share/fortune/farscape.dat
 }
-
