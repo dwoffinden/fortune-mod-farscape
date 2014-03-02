@@ -1,12 +1,11 @@
-# http://github.com/dwoffinden/fortune-mod-farscape
-
+# Maintainer: d.woffinden
 pkgname=fortune-mod-farscape
 pkgver=r1678980
-pkgrel=1
-pkgdesc='Fortune cookies: Farscape (TV series), scraped from wikiquotes.org'
+pkgrel=2
+pkgdesc='Fortune cookies: Farscape (TV series), scraped from https://en.wikiquote.org/wiki/Farscape'
 arch=('any')
-url='https://en.wikiquote.org/wiki/Farscape'
-license=('CC-BY-SA')
+url='http://github.com/dwoffinden/fortune-mod-farscape'
+license=('CCPL:by-sa3.0')
 makedepends=('perl' 'perl-mediawiki-api' 'perl-libwww')
 depends=('fortune-mod')
 groups=('fortune-mods')
