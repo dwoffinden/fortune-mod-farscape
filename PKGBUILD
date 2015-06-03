@@ -1,6 +1,6 @@
 # Maintainer: d.woffinden
 pkgname=fortune-mod-farscape
-pkgver=r1713836
+pkgver=r1813446
 pkgrel=1
 pkgdesc='Fortune cookies: Farscape (TV series), scraped from https://en.wikiquote.org/wiki/Farscape'
 arch=('any')
